@@ -11,7 +11,7 @@
 ## Task 1
 
 <img src="https://github.com/Pepi100/Bob-and-Alice/blob/master/mickey.png" align="right"
-     alt="Mickey" width="100">
+     alt="Mickey" width="300">
 
 [Requirement](https://nsucrypto.nsu.ru/media/Olympiads/2023/Round_1/Section%20B/Tasks/2023-round-1-section-B-3-kjfs.pdf)    
 
