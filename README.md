@@ -10,7 +10,7 @@
 
 ## Task 1
 
-<img src="https://github.com/Pepi100/IntroductionToRobotics/blob/master/%232%20-%20RGB%20Led/FinalDiagram.png" align="right"
+<img src="https://github.com/Pepi100/Bob-and-Alice/blob/master/mickey.png" align="right"
      alt="Mickey" width="100">
 
 [Requirement](https://nsucrypto.nsu.ru/media/Olympiads/2023/Round_1/Section%20B/Tasks/2023-round-1-section-B-3-kjfs.pdf)    
