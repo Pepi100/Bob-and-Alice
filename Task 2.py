@@ -16,19 +16,19 @@ def generate_random_size():
     return width, height
 
 
+def sha256_hash(input):
+    sha256_hash_obj = hashlib.sha256()
+    sha256_hash_obj.update(input.encode("utf-8"))
+    hashed_input = sha256_hash_obj.hexdigest()
+    return hashed_input
+
+
 def generate_image_with_letter(letter):
     image_size = generate_random_size()
     image = Image.new('RGB', image_size)
     draw = ImageDraw.Draw(image)
     draw.text((100, 100), letter)
     return image
-
-
-def sha256_hash(input):
-    sha256_hash_obj = hashlib.sha256()
-    sha256_hash_obj.update(input.encode("utf-8"))
-    hashed_input = sha256_hash_obj.hexdigest()
-    return hashed_input
 
 
 def generate_files(letters):
