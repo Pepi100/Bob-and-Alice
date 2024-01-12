@@ -10,7 +10,7 @@
 
 ## Task 1
 
-<img src="https://github.com/Pepi100/Bob-and-Alice/blob/master/mickey.png" align="right"
+<img src="https://github.com/Pepi100/Bob-and-Alice/blob/master/img/mickey.png" align="right"
      alt="Mickey" width="300">
 
 [Requirement](https://nsucrypto.nsu.ru/media/Olympiads/2023/Round_1/Section%20B/Tasks/2023-round-1-section-B-3-kjfs.pdf)    
@@ -91,10 +91,16 @@ Image: **7**, Header number: **1**, Header: **f40...7d5**, Dimensions: **559 x 5
 
 ## Task 2
 
+<img src="https://github.com/Pepi100/Bob-and-Alice/blob/master/img/MickeyMinnie.png" align="right"
+     alt="Mickey" width="200">
+
 Using the same strategy as Bob, create your own encrypted images, extracting the file header. You can implement this using any other block cypher. 
 
-
 > We will achieve this by generating a set of images and and associated hashed header. We will than solve the problem with the method presented in task 1.
+> Afterwards, the new problem could again be solved by Alice.
+
+<br>
+<br>
 
 - Generate images and associated headers using Python Imaging Library ([PIL](https://pillow.readthedocs.io/en/stable/)).
 
